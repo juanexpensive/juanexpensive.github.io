@@ -293,6 +293,10 @@ h2 {
   font-weight: 700;
 }
 
+.tech-pill i {
+  font-size: 1.8rem;
+}
+
 .project-entry {
   border-top: 1.5px solid var(--line);
   padding: var(--space-4) 0;
