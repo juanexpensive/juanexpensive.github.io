@@ -205,9 +205,7 @@ h2 {
 
 .button,
 .note-sheet,
-.code-sheet,
-.footer-note,
-.state-chip {
+.footer-note {
   background: var(--paper);
 }
 
@@ -264,7 +262,6 @@ h2 {
 }
 
 .note-sheet,
-.code-sheet,
 .footer-note {
   padding: var(--space-3);
 }
@@ -287,10 +284,6 @@ h2 {
 
 .side-list li + li {
   margin-top: 0.15rem;
-}
-
-.code-sheet p {
-  margin: 0.3rem 0;
 }
 
 .section-heading {
