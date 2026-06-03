@@ -557,7 +557,6 @@ h2 {
   display: block;
   width: 100%;
   height: auto;
-  background: var(--paper);
 }
 
 .doodle-image {
@@ -623,11 +622,7 @@ h2 {
 }
 
 .doodle-placeholder::after {
-  content: "";
-  position: absolute;
-  left: 10%;
-  right: 8%;
-  bottom: 1.1rem;
+  content: none;
 }
 
 .image-placeholder {
@@ -636,7 +631,6 @@ h2 {
   place-items: center;
   text-align: center;
   padding: 1rem;
-  border: 1.5px dashed var(--line);
 }
 
 .reveal {
